@@ -13,4 +13,3 @@ These are a few images demostrating the plugin in action. You can also test it y
 
 ![alt text](https://i.imgur.com/OlVxmD2.png)
 ![alt text](https://i.imgur.com/HFqSmUh.png)
-![alt text](https://i.imgur.com/W9rNgbo.gif)
