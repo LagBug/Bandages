@@ -1,0 +1,36 @@
+types:
+  normal_bandage:
+     name: '&a&lNORMAL BANDAGE'
+     additional-health-amount: 2.5
+     item: 'PAPER;0'
+     countdown-time: 3
+     lore:
+     - '&aThis is a normal bandage,'
+     - '&aand gives you plus 2.5 health.'
+     actions:
+     - 'playermsg &f[&7+&f] &aYou just got healed with a normal bandage.'
+     - 'playparticle HEART'
+  medkit:
+     name: '&a&lMEDKIT'
+     additional-health-amount: 20
+     item: 'CHEST;0'
+     countdown-time: 10
+     lore:
+     - '&aThis is a medkit, it fulls'
+     - '&ayour health. Although it takes 10 seconds'
+     - '&auntil the process is done. Also gives you regeneration.'
+     actions:
+     - 'consolecmd give %player_name% diamond'
+     - 'addpotion REGENERATION:30:0'
+  blindness_antidote:
+     name: '&a&lBLINDNESS ANTIDOTE'
+     additional-health-amount: 0
+     item: 'POTION;0'
+     countdown-time: 7
+     lore:
+     - '&aThis is the blindness antidote.'
+     - '&ait removes blindess from you if you have.'
+     - '&aTakes 7 seconds until done.'
+     actions:
+     - 'playercmd help'
+     - 'removepotion BLINDNESS'

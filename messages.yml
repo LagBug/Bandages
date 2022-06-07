@@ -1,0 +1,35 @@
+prefix: '&f[&7+&f]'
+
+general:
+   no-console: '%prefix% &aOnly players can use this command.'
+   started-countdown: '%prefix% &aThe healing process has started.'
+   ended-countdown: '%prefix% &aThe healing process has ended.'
+   freeze: 'enable'
+   invincible: 'enable'
+
+errors:
+   twice: '%prefix% &aYou can not do that twice.'
+   air: '%prefix% &aYou can not do that while in air.'
+
+actionbar:
+   process-message: '&fHealing process: [&a%remaining%&c%passed%&f]'
+   remaining-symbol: '&a|'
+   passed-symbol: '&c|'
+
+command:
+   no-permission: '%prefix% &cYou are not allowed to do that.'
+   wrong-usage: '%prefix% &aThe right usage is &f/bandage <give/types/create/delete>'
+   not-found: '%prefix% &aThe requested type could not be found.'
+   suggestion: '%prefix% &aAvailable suggestion: [&f%suggestion%&a]'
+   give:
+     wrong-usage: '%prefix% &aThe right usage is &f/bandage give <player> <type> <amount>'
+     success: '%prefix% &aSuccessfully gave a bandage type.'
+     player-null: '%prefix% &aThe requested player could not be found.'
+   create:
+     wrong-usage: '%prefix% &aThe right usage is &f/bandage create <item> <name>'
+     success: '%prefix% &aSuccessfully created a bandage type.'
+   delete:
+     wrong-usage: '%prefix% &aThe right usage is &f/bandage delete <name>'
+     success: '%prefix% &aSuccessfully deleted a bandage type.'
+   types:
+     message: '%prefix% &aThe current types are: &f%types%'
